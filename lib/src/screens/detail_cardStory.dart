@@ -101,9 +101,11 @@ class _DetailCardStoryState extends State<DetailCardStory> {
                 style: Theme.of(context).textTheme.headline5,
                 textAlign: TextAlign.center,
               ),
-              Text(
-                widget.card.story,
-                textAlign: TextAlign.justify,
+              Expanded(
+                child: Text(
+                  widget.card.story,
+                  textAlign: TextAlign.justify,
+                ),
               ),
             ],
           ),
