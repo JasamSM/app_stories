@@ -105,7 +105,7 @@ class _LoginPageState extends State<LoginPage> {
                             onEditingComplete: () {
                               requestFocus(context, _focus);
                             },
-                            decoration: InputDecoration(labelText: "Usuario:"),
+                            decoration: InputDecoration(labelText: "Email:"),
                             onSaved: (value) {
                               userName = value;
                             },
