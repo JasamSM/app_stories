@@ -102,7 +102,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                 requestFocus(context, _focus);
                               },
                               decoration:
-                                  InputDecoration(labelText: "Usuario:"),
+                                  InputDecoration(labelText: "Email:"),
                               onSaved: (value) {
                                 userName = value;
                               },
